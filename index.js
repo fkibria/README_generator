@@ -46,6 +46,12 @@ const questions = [
     message:"Enter your github",
     validate: (value)=>{ if(value){return true} else {return 'i need a value to continue'}},
 },
+{
+    type:"input",
+    name:"screenshots",
+    message:"Enter link to screenshot",
+
+},
 ];
 
 // function to write README file

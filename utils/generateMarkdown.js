@@ -2,7 +2,7 @@
 function generateMarkdown(data) {
   return `# ${data.title}
 
-### Table of Contents\n\n- [Overview](#overview)\n- [Link to App](#deployed)\n- [Installation](#installation)\n- [Criteria](#criteria)\n- [License](#license)\n- [Github](#github)\n-  
+### Table of Contents\n\n- [Overview](#overview)\n- [Link to App](#deployed)\n- [Installation](#installation)\n- [Screenshots](#screenshots)\n- [Criteria](#criteria)\n- [License](#license)\n- [Github](#github)\n-  
 ## Overview
 ${data.overview}
 
@@ -12,6 +12,9 @@ ${data.deployed}
 ## Installation
 
 ${data.installation}
+
+## Screenshots 
+![image](/${data.screenshot})
 
 ## Acceptance Criteria
 ${data.criteria}
